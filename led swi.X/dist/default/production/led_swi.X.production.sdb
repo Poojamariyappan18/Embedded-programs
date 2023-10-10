@@ -1,0 +1,28 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"5 E:\projects\led swi.X\ledswi.c
+[v _main main `(i  1 e 2 0 ]
+"1335 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f877a.h
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1396
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"2511
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"2531
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"5 E:\projects\led swi.X\ledswi.c
+[v _main main `(i  1 e 2 0 ]
+{
+"21
+} 0
