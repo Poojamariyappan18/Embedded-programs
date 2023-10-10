@@ -1,0 +1,28 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"3 E:\projects\altled.X\altledd.c
+[v _main main `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"219 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1438
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"3846
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"3848
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"3 E:\projects\altled.X\altledd.c
+[v _main main `(v  1 e 1 0 ]
+{
+"19
+} 0
