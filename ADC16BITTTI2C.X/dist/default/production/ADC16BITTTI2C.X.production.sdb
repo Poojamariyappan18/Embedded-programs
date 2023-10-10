@@ -1,0 +1,50 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"56 E:\projects\ADC16BITTTI2C.X\ADCBITTTFINAL.c
+[v _I2C_Wait I2C_Wait `(v  1 e 1 0 ]
+"81
+[v _main main `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"785 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f877a.h
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"791
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1707
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1774
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1780
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2311
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2313
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2337
+[v _BF BF `VEb  1 e 0 @1184 ]
+"2483
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2553
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2589
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2599
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2707
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2709
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"81 E:\projects\ADC16BITTTI2C.X\ADCBITTTFINAL.c
+[v _main main `(v  1 e 1 0 ]
+{
+"100
+} 0
