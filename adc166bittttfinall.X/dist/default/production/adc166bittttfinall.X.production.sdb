@@ -1,0 +1,195 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"33 E:\projects\adc166bittttfinall.X\16bitfinaladc.c
+[v _delay delay `(v  1 e 1 0 ]
+"38
+[v _cmd cmd `(v  1 e 1 0 ]
+"47
+[v _dat dat `(v  1 e 1 0 ]
+"56
+[v _cmmd cmmd `(v  1 e 1 0 ]
+"64
+[v _fun fun `(v  1 e 1 0 ]
+"100
+[v _main main `(v  1 e 1 0 ]
+"10 E:\projects\adc166bittttfinall.X\adc.h
+[v _i2c_flag i2c_flag `(v  1 e 1 0 ]
+"15
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"20
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"30
+[v _i2c_ack i2c_ack `(v  1 e 1 0 ]
+"36
+[v _i2c_nack i2c_nack `(v  1 e 1 0 ]
+"42
+[v _i2c_send i2c_send `(v  1 e 1 0 ]
+"50
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"329 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"785
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"791
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1457
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1774
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"2311
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2313
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2315
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"2483
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2531
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2533
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2535
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2553
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2589
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2599
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2611
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2701
+[v _TRISC0 TRISC0 `VEb  1 e 0 @1080 ]
+"2703
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1081 ]
+"2705
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"100 E:\projects\adc166bittttfinall.X\16bitfinaladc.c
+[v _main main `(v  1 e 1 0 ]
+{
+"106
+[v main@result result `ui  1 a 2 12 ]
+"136
+} 0
+"20 E:\projects\adc166bittttfinall.X\adc.h
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"24
+} 0
+"15
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"19
+} 0
+"42
+[v _i2c_send i2c_send `(v  1 e 1 0 ]
+{
+[v i2c_send@b b `uc  1 a 1 wreg ]
+[v i2c_send@b b `uc  1 a 1 wreg ]
+"44
+[v i2c_send@b b `uc  1 a 1 0 ]
+"48
+} 0
+"50
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+{
+"55
+} 0
+"36
+[v _i2c_nack i2c_nack `(v  1 e 1 0 ]
+{
+"41
+} 0
+"30
+[v _i2c_ack i2c_ack `(v  1 e 1 0 ]
+{
+"35
+} 0
+"10
+[v _i2c_flag i2c_flag `(v  1 e 1 0 ]
+{
+"14
+} 0
+"64 E:\projects\adc166bittttfinall.X\16bitfinaladc.c
+[v _fun fun `(v  1 e 1 0 ]
+{
+"68
+[v fun@f f `ui  1 a 2 26 ]
+[v fun@d d `ui  1 a 2 24 ]
+[v fun@b b `ui  1 a 2 22 ]
+[v fun@a a `ui  1 a 2 20 ]
+[v fun@l l `ui  1 a 2 18 ]
+[v fun@n n `ui  1 a 2 16 ]
+[v fun@m m `ui  1 a 2 14 ]
+[v fun@k k `ui  1 a 2 12 ]
+[v fun@j j `ui  1 a 2 10 ]
+[v fun@i i `ui  1 a 2 8 ]
+[v fun@h h `ui  1 a 2 6 ]
+[v fun@g g `ui  1 a 2 4 ]
+[v fun@e e `ui  1 a 2 2 ]
+[v fun@c c `ui  1 a 2 0 ]
+"64
+[v fun@adc adc `ui  1 p 2 8 ]
+"96
+} 0
+"47
+[v _dat dat `(v  1 e 1 0 ]
+{
+[v dat@y y `ui  1 p 2 2 ]
+"55
+} 0
+"56
+[v _cmmd cmmd `(v  1 e 1 0 ]
+{
+"63
+} 0
+"38
+[v _cmd cmd `(v  1 e 1 0 ]
+{
+[v cmd@x x `ui  1 p 2 2 ]
+"46
+} 0
+"33
+[v _delay delay `(v  1 e 1 0 ]
+{
+"35
+[v delay@i i `i  1 a 2 0 ]
+"37
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
